@@ -1,0 +1,33 @@
+#products {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+#products-container {
+  width: 90%;
+  max-width: 123rem;
+  margin: auto;
+}
+
+#products-container > h2 {
+  font-family: "Playir Display", serif;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+#cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35rem, auto));
+  gap: 2rem; 
+}
+
+#not-foud {
+  font-size: 2rem;
+  color: #d45b5b;
+}
+
+#loading {
+  display: block;
+  margin: 3rem auto;
+  width: 5rem;
+}

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> should match snapshot 1`] = `
+<div
+  class="card"
+  id="card-number-1"
+>
+  <img
+    alt="illustration"
+    class="illustration"
+    src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+  />
+  <div
+    class="card-description"
+  >
+    <h3>
+      Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+    </h3>
+    <p>
+      Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday
+    </p>
+    <div
+      class="card-footer"
+    >
+      <span>
+        $
+        $109.95
+      </span>
+      <span>
+        <img
+          alt="star"
+          src="https://www.iconpacks.net/icons/2/free-star-icon-2768-thumb.png"
+        />
+         
+        3.9
+      </span>
+    </div>
+  </div>
+</div>
+`;

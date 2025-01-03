@@ -1,0 +1,147 @@
+#modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, #00000088, #bbbbbb70);
+  transition: all 300ms ease;
+}
+
+#modal-container {
+  background-color: #fff;
+  margin: 3rem 12rem;
+  height: 90%;
+  border-radius: 0.6rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#modal-container::-webkit-scrollbar {
+  display: none;
+}
+
+#modal-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem 1rem 5rem;
+}
+
+#modal-header > span {
+  font-family: "Playir Display", serif;
+  font-size: 2.8rem;
+  text-transform: capitalize;
+}
+
+#modal-header > button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#modal-header > button > img {
+  width: 4.4rem;
+  height: 4.4rem;
+}
+
+#modal-main {
+  padding: 2rem 5rem 6rem 5rem;
+}
+
+#modal-illustration {
+  width: 100%;
+  height: 40rem;
+  background-position: center;
+  background-size: 23rem;
+  background-repeat: no-repeat;
+}
+
+#modal-main > h2 {
+  font-family: "Playir Display", serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 4rem 0 2rem;
+  text-align: justify;
+}
+
+#modal-main > p {
+  color: #373737a1;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+#price-rate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#price > strong {
+  font-weight: bold;
+  color: #4ead0e;
+}
+
+#rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#rating > span {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+#rating > span > img {
+  width: 2rem;
+}
+
+#rating > span:last-child {
+  font-weight: bold;
+}
+
+#buy-item {
+  width: 100%;
+  padding: 1rem 0;
+  margin-top: 3rem;
+  font-family: "Playir Display", serif;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  border: 0.1rem solid #373737a1;
+  background-color: #fff;
+  transition: letter-spacing 200ms ease, background-color 200ms ease,
+    color 200ms ease;
+  cursor: pointer;
+}
+
+#buy-item:hover {
+  letter-spacing: 0.7rem;
+  background-color: #373737;
+  color: #fff;
+}
+
+@media (max-width: 780px) {
+  #modal-container {
+    margin: 3rem;
+  }
+}
+
+@media (max-width: 510px) {
+  #modal-container {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #modal-main {
+    padding: 2rem 2rem 6rem 2rem;
+  }
+
+  #modal-header {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+}

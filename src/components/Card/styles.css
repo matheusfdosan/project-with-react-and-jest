@@ -1,0 +1,54 @@
+.card {
+  border-radius: 0.4rem;
+  overflow: hidden;
+  border: 0.1rem solid #37373788;
+  padding: 1rem 2rem 2rem 2rem;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #37373728;
+}
+
+.card > .illustration {
+  width: 100%;
+  height: 35rem;
+  padding: 3rem;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+.card-description > h3 {
+  font-family: "Playir Display", serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.card-description > p {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  color: #37373788;
+  height: 4rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-footer > span:last-child {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-footer > span:last-child > img {
+  width: 2rem;
+}

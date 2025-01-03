@@ -1,0 +1,16 @@
+#header {
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 0.1rem solid #3f3f3f49;
+  text-align: center;
+}
+
+#header-container > h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #3f3f3f;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}

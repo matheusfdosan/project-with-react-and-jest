@@ -1,0 +1,35 @@
+#hero {
+  width: 100%;
+}
+
+#hero-container {
+  width: 90%;
+  max-width: 100rem;
+  margin: auto;
+}
+
+#hero-text {
+  display: flex;
+  padding: 3rem 0;
+}
+
+#titles {
+  flex: 2;
+}
+
+#titles > h2 {
+  font-family: "Playir Display", serif;
+  color: #3f3f3f49;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#titles > h3 {
+  font-family: "Playir Display", serif;
+}
+
+
+
+#hero-description {
+  flex: 1;
+}
