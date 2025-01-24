@@ -30,8 +30,8 @@ SF:src\components\Header\index.jsx
 FN:4,Header
 FNF:1
 FNH:1
-FNDA:1,Header
-DA:5,1
+FNDA:2,Header
+DA:5,2
 LF:1
 LH:1
 BRF:0
@@ -42,8 +42,8 @@ SF:src\components\LoadMoreButton\index.jsx
 FN:4,LoadMoreButton
 FNF:1
 FNH:1
-FNDA:2,LoadMoreButton
-DA:5,2
+FNDA:3,LoadMoreButton
+DA:5,3
 LF:1
 LH:1
 BRF:0

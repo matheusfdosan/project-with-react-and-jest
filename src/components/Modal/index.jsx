@@ -1,5 +1,6 @@
+import React from "react"
 import "./styles.css"
-import closeModalCross from "../../assets/cross.png"
+// import closeModalCross from "../../assets/cross.png"
 
 export default function Modal({ data, handleCloseModalClick }) {
   const handleCloseModal = () => {
@@ -17,7 +18,7 @@ export default function Modal({ data, handleCloseModalClick }) {
         <div id="modal-header">
           <span>{data.category}</span>
           <button onClick={handleCloseModal}>
-            <img src={closeModalCross} alt="close-modal" />
+            <img src={"https://cdn-icons-png.flaticon.com/256/3917/3917759.png"} alt="close-modal" />
           </button>
         </div>
         <div id="modal-main">

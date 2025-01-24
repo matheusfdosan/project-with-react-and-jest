@@ -1,9 +1,10 @@
+import React from "react"
 import "./styles.css"
 import { useState, useEffect } from "react"
 import fetchProducts from "../../utils/fetchProducts"
 import Card from "../Card"
 import Search from "../Search"
-import loadingGif from "../../assets/loading.gif"
+// import loadingGif from "../../assets/loading.gif"
 import LoadMoreButton from "../LoadMoreButton"
 import Modal from "../Modal"
 
@@ -14,7 +15,7 @@ export default function Products() {
   const [loading, setLoading] = useState(false)
   const [productsPerPage, setProductsPerPage] = useState(10)
   const [showModal, setShowModal] = useState(false)
-  const [specificProduct, setSpecificProduct] = useState()
+  const [specificProduct, setSpecificProduct] = useState([])
 
   useEffect(() => {
     const getProducts = async () => {
@@ -73,7 +74,7 @@ export default function Products() {
         <Search sendToProductsComponent={handleSearchInput} />
         <h2>All our Products:</h2>
 
-        {loading && <img src={loadingGif} alt="loadingGif" id="loading" />}
+        {loading && <img src={"https://camo.githubusercontent.com/bfb2b63eeb7b21626c1a896e6e58a55838135977ce8b5d7ee13a60080b56a1e7/68747470733a2f2f6173736574732d76322e6c6f7474696566696c65732e636f6d2f612f30336364633665302d313138622d313165652d626630382d3037643838613934316362642f696969774730764a514e2e676966"} alt="loadingGif" id="loading" />}
 
         <div id="cards-container">
           {filteredProducts.slice(0, productsPerPage).map((p) => {
